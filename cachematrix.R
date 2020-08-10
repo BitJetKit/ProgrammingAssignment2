@@ -1,8 +1,8 @@
 ## Caching the Inverse of a Matrix:
-## Matrix inversion is usually a costly computation, but there are
+## Matrix inversion is usually a costly calculation, but there are
 ## a number of benefits caching the inverse of a matrix, instead of than calculating it, repeatedly:
-## More RAM shall be available, more arithmetic-logic can be computed, and more memory to memory data transfers
-## reduces computer overhead because the reader doing less of these computing is resultant this way: less heat, 
+## More RAM shall be available, more arithmetic-logic can be calculated, more memory to memory data transfers
+## reduces computer overhead because the reader doing less of these calculations is resultant this way: less heat
 ## thus less power consumed.
 ## Below are a functional couple; but these are used queued individually, starting with makeCacheMatrix,
 ## and you can create a special object that stores a matrix then this special object caches the matrix's inverse.
